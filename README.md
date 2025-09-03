@@ -45,11 +45,46 @@ This repo serves as a learning archive as well as a reference library for anyone
 ## 📂 Repo Structure (Example)
 
 ```
-📦 java-programs
- ┣ .gitignore
- ┣ 📂 Core_Java/
- ┣ 📂 Adv_Java/
- ┗ README.md
+📂 Java-Programs
+├─── 📂 Adv_Java/                     # Directory & some p*.java files
+│   ├─── 📂 day1/                     # Directory & some p*.java files
+│   └─── 📂 day2/                     # Directory & some p*.java files
+├─── 📂 Core_java/                     # Directory
+│   ├─── 📂 day1/                     # Directory & some p*.java files
+│   ├─── 📂 day10/                     # Directory & some p*.java files
+│   │   ├─── 📂 server/                     # Server-side code
+│   │   │   ├─── 📄 Client.java                     # Java source file
+│   │   │   ├─── 📄 DBConnection.java                     # Java source file
+│   │   │   ├─── 📄 ojdbc8.jar                     # Oracle Drivers for JDBC Connection
+│   │   │   └─── 📄 Server.java                     # Java source file
+│   ├─── 📂 day11/                     # Directory & some p*.java files
+│   ├─── 📂 day12/                                    -
+│   ├─── 📂 day13/                                    -
+│   ├─── 📂 day14/                                    -
+│   ├─── 📂 day15/                                    -
+│   ├─── 📂 day16/                                    -
+│   ├─── 📂 .....                                    -
+│   ├─── 📂 day18/                                    -  
+│   ├─── 📂 day19/                                    -
+│   ├─── 📂 day2/                                     -
+│   ├─── 📂 day3/                                     -
+│   ├─── 📂 ....                                    -
+│   ├─── 📂 day5/                                     -
+│   ├─── 📂 ....                                     -
+│   ├─── 📂 ....                                     -
+│   ├─── 📂 ....                                     -
+│   ├─── 📂 day*/                     # Directory & some p*.java files
+│   ├─── 📂 DSA/                     # Directory
+│   │   └─── 📂 STACK/                     # Directory
+│   │   ........
+│   ├─── 📂 Pattern/                     # Directory
+│   │   ├─── 📄 p1.java                     # Java source file
+│   │  ........                           # some more files
+│   └─── 📂 pattern copy/                     # Directory
+│       ├─── 📄 p1.java                     # Java source file
+│        .......                     # Some more Files
+├─── 📄 .gitignore                     # Git ignore rules
+└─── 📄 README.md                     # Project documentation
 ```
 
 *(you can reorganize your repo later into folders like this)*
